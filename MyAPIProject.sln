@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiConsume", "ApiConsume", "{60B03FB8-F421-4378-BF39-45D0BDAD705B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{E28B70BF-1FEF-46E3-BF88-2409AD867205}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ToDoList", "ToDoList", "{D584899F-1F31-415D-AE10-356E98003F39}"
+	ProjectSection(SolutionItems) = preProject
+		Adımlar.txt = Adımlar.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelProject.WebApi", "ApiConsume\HotelProject.WebApi\HotelProject.WebApi.csproj", "{23BDB68E-1952-4BCD-9E6C-DF7072EF8363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelProject.EntityLayer", "ApiConsume\HotelProject.EntityLayer\HotelProject.EntityLayer.csproj", "{ADC583A7-FA1E-40D6-A573-47677337C12C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelProject.DataAccessLayer", "ApiConsume\HotelProject.DataAccessLayer\HotelProject.DataAccessLayer.csproj", "{305DE101-4C8C-41BF-81E3-6025CBBEE963}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelProject.BusinessLayer", "ApiConsume\HotelProject.BusinessLayer\HotelProject.BusinessLayer.csproj", "{0E4FF721-2C2E-4B2A-8F9F-93D9C0D40567}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelProject.DtoLayer", "ApiConsume\HotelProject.DtoLayer\HotelProject.DtoLayer.csproj", "{F20BB217-848F-4CC6-A39A-EB613A66BEF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelProject.WebUI", "Frontend\HotelProject.WebUI\HotelProject.WebUI.csproj", "{7A7F4236-6FC0-471E-80B7-633021DF5F02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23BDB68E-1952-4BCD-9E6C-DF7072EF8363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23BDB68E-1952-4BCD-9E6C-DF7072EF8363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23BDB68E-1952-4BCD-9E6C-DF7072EF8363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23BDB68E-1952-4BCD-9E6C-DF7072EF8363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC583A7-FA1E-40D6-A573-47677337C12C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC583A7-FA1E-40D6-A573-47677337C12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC583A7-FA1E-40D6-A573-47677337C12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC583A7-FA1E-40D6-A573-47677337C12C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{305DE101-4C8C-41BF-81E3-6025CBBEE963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{305DE101-4C8C-41BF-81E3-6025CBBEE963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{305DE101-4C8C-41BF-81E3-6025CBBEE963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{305DE101-4C8C-41BF-81E3-6025CBBEE963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E4FF721-2C2E-4B2A-8F9F-93D9C0D40567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E4FF721-2C2E-4B2A-8F9F-93D9C0D40567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E4FF721-2C2E-4B2A-8F9F-93D9C0D40567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E4FF721-2C2E-4B2A-8F9F-93D9C0D40567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F20BB217-848F-4CC6-A39A-EB613A66BEF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F20BB217-848F-4CC6-A39A-EB613A66BEF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F20BB217-848F-4CC6-A39A-EB613A66BEF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F20BB217-848F-4CC6-A39A-EB613A66BEF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A7F4236-6FC0-471E-80B7-633021DF5F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7F4236-6FC0-471E-80B7-633021DF5F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7F4236-6FC0-471E-80B7-633021DF5F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7F4236-6FC0-471E-80B7-633021DF5F02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{23BDB68E-1952-4BCD-9E6C-DF7072EF8363} = {60B03FB8-F421-4378-BF39-45D0BDAD705B}
+		{ADC583A7-FA1E-40D6-A573-47677337C12C} = {60B03FB8-F421-4378-BF39-45D0BDAD705B}
+		{305DE101-4C8C-41BF-81E3-6025CBBEE963} = {60B03FB8-F421-4378-BF39-45D0BDAD705B}
+		{0E4FF721-2C2E-4B2A-8F9F-93D9C0D40567} = {60B03FB8-F421-4378-BF39-45D0BDAD705B}
+		{F20BB217-848F-4CC6-A39A-EB613A66BEF8} = {60B03FB8-F421-4378-BF39-45D0BDAD705B}
+		{7A7F4236-6FC0-471E-80B7-633021DF5F02} = {E28B70BF-1FEF-46E3-BF88-2409AD867205}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AF6C4A3-1317-40E4-8166-810BA1DD615C}
+	EndGlobalSection
+EndGlobal
