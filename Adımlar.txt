@@ -1,1 +1,4 @@
-Api Testi ve Swagger
+Onay Bekliyor
+Onaylandý
+Ýptal Edildi
+Bekletiliyor
