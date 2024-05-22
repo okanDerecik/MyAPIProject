@@ -21,7 +21,7 @@ namespace HotelProject.WebUI.Controllers
         public async Task<IActionResult> Index()
         {
             var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.GetAsync("http://localhost:10231/api/booking");
+            var responseMessage = await client.GetAsync("http://localhost:10231/api/Booking");
             if (responseMessage.IsSuccessStatusCode)
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
